@@ -8,7 +8,7 @@ function App() {
       <h1>Regalos:</h1>
       <ul>
         {data.map(el => (
-          <li>{el}</li>
+          <li key="el.id">{el.title}</li>
         ))}
       </ul>
     </div>
