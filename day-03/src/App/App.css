@@ -1,3 +1,20 @@
 .App {
-  text-align: center;
+	text-align: center;
+}
+
+.App input {
+	padding: 0.7rem;
+	border-radius: 5px;
+	border: 1px solid green;
+	outline: 1px solid red;
+}
+
+.App button {
+	padding: 0.7rem;
+	background-color: green;
+	color: #fff;
+	font-weight: 700;
+	border: none;
+	margin-left: 5px;
+	border-radius: 5px;
 }

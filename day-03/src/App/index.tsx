@@ -6,7 +6,7 @@ function App() {
 
   const [gifts, setGifts] = useState(data)
 
-  let newGift: string;
+  let newGift: string = "";
 
   const handleSubmit = (evt: React.FormEvent<HTMLInputElement>) => {
     evt.preventDefault()
@@ -19,11 +19,24 @@ function App() {
       ]
     ) 
 
+    
+
   }
   const handleChange = (evt: React.FormEvent<HTMLInputElement>) => {
 
     newGift = evt.currentTarget.value
     
+  }
+
+  const handleClick = () => {
+    setGifts([
+      ...gifts,
+        {
+          id: gifts.length +1,
+          title: newGift,
+        }
+      ]
+    ) 
   }
 
   return (
@@ -48,7 +61,7 @@ function App() {
          />
          <button 
           type="button" 
-          //onClick={handleClick}
+          onClick={handleClick}
           >Add
           </button>
       </form>
