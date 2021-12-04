@@ -1,0 +1,41 @@
+.App {
+	text-align: center;
+	list-style: none;
+}
+
+.App li {
+	padding: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+input {
+	padding: 0.5rem 1rem;
+	border-radius: 55px;
+	border: 1px solid #555;
+	outline: #5f5 solid 1px;
+}
+
+form button {
+	background-color: green;
+	border: none;
+	font-weight: 700;
+	border-radius: 3px;
+	padding: 0.5rem 1rem;
+	color: #fff;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+.button--deleted {
+	background-color: red;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.ListGifts {
+	padding: 1rem;
+	background-color: rgba(250, 250, 250, 0.7);
+}
