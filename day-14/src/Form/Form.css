@@ -1,0 +1,27 @@
+.Form {
+	display: flex;
+	padding: 0 1rem 1rem;
+	border-radius: 10px;
+	text-align: center;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: #fff;
+	box-shadow: 5px 10px 15px #ccc;
+}
+
+.Form .add-button {
+	font-weight: 700;
+	background-color: #0a0;
+	border: none;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	color: #fff;
+	cursor: pointer;
+}
+
+.Form .buttons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	text-align: center;
+}
