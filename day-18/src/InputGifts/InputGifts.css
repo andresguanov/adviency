@@ -1,0 +1,18 @@
+.InputGifts {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	padding: 0.5rem 1.5rem;
+}
+
+.InputGifts label {
+	text-align: right;
+}
+
+.InputGifts input {
+	font-family: "Gloria Hallelujah";
+	margin: 0 1rem;
+	padding: 0.5rem 1.5rem;
+	border-radius: 5px;
+	border: 1px solid #555;
+	outline: #0a0 solid 1px;
+}

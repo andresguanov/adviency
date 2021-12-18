@@ -1,0 +1,89 @@
+.App {
+	text-align: center;
+	list-style: none;
+}
+
+.App ul {
+	box-shadow: 0 5px 10px #555;
+	border-radius: 10px;
+	padding: 1rem 3rem;
+}
+
+.App li {
+	padding: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button--deleted {
+	background-color: #ff0000;
+	padding: 0.5rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button--deleted__all {
+	font-weight: 800;
+	width: 90%;
+	height: 2.5rem;
+}
+.button--deleted:hover {
+	background-color: #c50505;
+}
+
+.ListGifts {
+	width: 500px;
+	max-height: 300px;
+	background-color: rgba(250, 250, 250, 0.9);
+	overflow-y: scroll;
+}
+
+.ListGifts::-webkit-scrollbar {
+	width: 7px;
+}
+
+.ListGifts::-webkit-scrollbar-thumb {
+	background-color: #0a0;
+	border-radius: 10px;
+}
+
+.ListGifts .items .gift-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: solid 1px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+.ListGifts .items {
+	display: flex;
+	gap: 1rem;
+}
+
+.ListGifts .items .item {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.ListGifts .items .item .item--destiny {
+	font-size: small;
+	opacity: 0.7;
+}
+
+.ListGifts .ListGifts--buttons button {
+	margin: 0 0.5rem;
+	font-size: 1rem;
+	font-weight: bolder;
+}
+
+.TotalPrice {
+	background-color: rgba(250, 250, 250, 0.9);
+	box-shadow: 5px 5px 5px #ccc;
+	margin: 1rem;
+	padding: 1rem;
+}
